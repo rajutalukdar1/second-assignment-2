@@ -3,3 +3,96 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* first contaner  */
+
+.contenar {
+    background-color: black;
+    margin-top: 76px;
+    margin-left: 140px;
+    margin-right: 139px;
+    width: 1250px;
+    height: 500px;
+    border-radius: 30px;
+
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.main-contenar {
+    display: flex;
+    color: white;
+    margin-left: 106px;
+    margin-top: 111px;
+    margin-bottom: 111px;
+}
+
+.main-contenar img {
+    margin-top: 33px;
+    margin-right: 79px;
+}
+
+.banner img {
+    width: 100%;
+    padding-right: 10%;
+}
+
+.sub-contenar {
+    width: 40%;
+    padding-right: 5%;
+}
+
+.link-in {
+
+    text-decoration: none;
+    background-color: rgb(208, 34, 34);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.login {
+    margin-top: 50px;
+    margin-left: 140px;
+
+}
+
+.boxes {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 30px;
+    background-color: white;
+}
+
+#blog a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+}
+
+#blog {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5%;
+    margin: 30px;
+    background-color: red;
+}
