@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* first contaner  */
+/*  contaner  */
 
 .contenar {
     background-color: black;
@@ -165,22 +165,6 @@ h2 {
     box-shadow: 0px 0px 0px 1px #E8E8E8 inset;
 }
 
-.ipc {
-    margin-left: 10px;
-}
-
-.button>p {
-    width: 100px;
-    height: 25px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    border: 1px solid #161616;
-    color: #161616;
-}
-
 .team-info {
     color: #161616;
     font-weight: 600;
@@ -201,8 +185,57 @@ h2 {
 
 .match_div {
     width: 1000px;
-
     display: inline-block;
+}
+
+.match-schedule {
+    display: inline-block;
+}
+
+.country {
+    width: 312px;
+    height: 242px;
+    margin-right: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px #E8E8E8 inset;
+}
+
+.team-vs-team {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 252px;
+
+    height: 56.18px;
+    margin-top: 53px;
+    margin-left: 30px;
+}
+
+.vs {
+    color: #161616;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.team-name {
+    position: absolute;
+    flex: none;
+    margin-top: 55px;
+}
+
+.team-name>span {
+    display: block;
+    color: #4D4D4D;
+    margin-top: -7px;
+    text-align: center;
+}
+
+.team-name>h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
 }
 
 /* footer section start */
