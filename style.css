@@ -96,3 +96,104 @@ h2 {
     margin: 30px;
     background-color: red;
 }
+
+.match-info {
+    display: flex;
+    column-gap: 24px;
+    margin-top: 130px;
+}
+
+.match {
+    width: 312px;
+    height: 312px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+
+.time {
+    display: grid;
+    width: 252px;
+    height: 252px;
+    border-radius: 10px;
+}
+
+.common {
+    width: 252px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #161616;
+    background-color: white;
+}
+
+.common>p {
+    text-align: center;
+}
+
+#other-color {
+    color: white;
+    background-color: #DD0000;
+}
+
+/* match-schedule style start */
+
+.match-schedule {
+    display: inline-block;
+    /* grid-template-columns: repeat(3, 1fr); */
+    column-gap: 24px;
+    width: 315px;
+    margin-bottom: 8px;
+}
+
+.team {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px #E8E8E8 inset;
+}
+
+.ipc {
+    margin-left: 10px;
+}
+
+.button>p {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #161616;
+    color: #161616;
+}
+
+.team-info {
+    color: #161616;
+    font-weight: 600;
+    Size: 18px;
+    Line-height: 27px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons .icon span {
+    color: #161616;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.match_div {
+    width: 1000px;
+
+    display: inline-block;
+}
