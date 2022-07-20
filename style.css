@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* first contaner  */
@@ -208,7 +210,7 @@ h2 {
 /* footer section start */
 
 .footer {
-    position: absolute;
+
     width: 1500px;
     height: 444px;
     margin-top: 130px;
@@ -258,3 +260,281 @@ hr {
 }
 
 /* footer section End */
+
+@media only screen and (max-width:688px) {}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* first contaner  */
+
+.contenar {
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.main-contenar {
+    display: grid;
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-contenar img {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+.banner img {
+    width: 100%;
+    padding-right: 0%;
+}
+
+.banner {
+    display: block;
+}
+
+.sub-contenar {
+    width: 100%;
+    display: block;
+    padding-right: 0%;
+}
+
+.link-in {
+
+    text-decoration: none;
+    background-color: rgb(208, 34, 34);
+    padding: 0px 0px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+.login {
+    margin-top: 5px;
+    margin-left: 0px;
+
+}
+
+.boxes {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+}
+
+.box a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0%;
+    margin: 0px;
+    background-color: white;
+}
+
+#blog a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+
+}
+
+#blog {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0%;
+    margin: 0px;
+    background-color: red;
+}
+
+.match-info {
+    display: grid;
+    column-gap: 24px;
+    margin-top: 0px;
+}
+
+
+.match {
+    width: 100%;
+    height: 312px;
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    justify-content: center;
+    display: grid;
+}
+
+
+.time {
+    width: 210px;
+    height: 176px;
+    left: 83px;
+    top: 540px;
+}
+
+.common {
+    width: 100%;
+    height: 64px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    border: 1px solid #e5e6e1;
+
+    color: #161616;
+    background-color: white;
+}
+
+.common>p {
+    text-align: center;
+}
+
+.ancore-add {
+
+    width: 210px;
+    height: 48px;
+    left: 83px;
+    top: 540px;
+
+}
+
+#other-color {
+    color: white;
+    background-color: #DD0000;
+}
+
+/* match-schedule style start */
+
+.match-schedule {
+    display: inline-block;
+    /* grid-template-columns: repeat(3, 1fr); */
+    column-gap: 24px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.team {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 1px #E8E8E8 inset;
+}
+
+.ipc {
+    margin-left: 0px;
+}
+
+.button>p {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #161616;
+    color: #161616;
+}
+
+.team-info {
+    color: #161616;
+    font-weight: 600;
+    size: 18px;
+    Line-height: 27px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons .icon span {
+    color: #161616;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.match_div {
+    width: 100%;
+
+    display: inline-block;
+}
+
+/* footer section start */
+
+.footer {
+
+    width: 100%;
+    height: 444px;
+    margin-top: 1px;
+    background: #161616;
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.goal {
+    height: 60px;
+    margin-top: 10px;
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+
+    color: white;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer>p {
+    text-align: center;
+}
+
+.footer-nav-bar {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 24px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-nav-bar a {
+    text-decoration: none;
+    color: #B9B9B9;
+    padding: 5px;
+}
