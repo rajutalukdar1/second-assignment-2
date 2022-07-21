@@ -17,6 +17,7 @@ body {
     height: 500px;
     border-radius: 30px;
 
+
 }
 
 h2 {
@@ -542,3 +543,9 @@ hr {
         padding: 5px;
     }
 }
+
+
+/*------------------
+ tablet media quare-
+---------------- */
+@media screen {}
