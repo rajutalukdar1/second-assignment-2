@@ -208,6 +208,19 @@ h2 {
     display: inline-block;
 }
 
+.hight {
+    display: none;
+    color: white;
+}
+
+.hight-less {
+    border: 1px solid red;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+
+}
+
 /* footer section start */
 
 .footer {
@@ -490,6 +503,7 @@ hr {
         justify-content: center;
     }
 
+
     /* footer section start */
 
     .footer {
@@ -548,4 +562,17 @@ hr {
 /*------------------
  tablet media quare-
 ---------------- */
-@media screen {}
+
+@media screen and (min-width:689px) and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+
+    .hight {
+        display: block;
+        margin-left: 50%;
+        border-radius: 10px;
+
+    }
+
+}
